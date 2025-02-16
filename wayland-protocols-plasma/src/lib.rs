@@ -121,7 +121,7 @@ pub mod plasma_shell {
 
 pub mod plasma_virtual_desktop {
     wayland_protocol!(
-        "./plasma-wayland-protocols/src/protocols/plasma-virtual-desktop.xml",
+        "./plasma-wayland-protocols/src/protocols/org-kde-plasma-virtual-desktop.xml",
         []
     );
 }

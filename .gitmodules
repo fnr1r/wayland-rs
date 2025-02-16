@@ -6,4 +6,5 @@
 	url = https://gitlab.freedesktop.org/wlroots/wlr-protocols.git
 [submodule "wayland-protocols-plasma/plasma-wayland-protocols"]
 	path = wayland-protocols-plasma/plasma-wayland-protocols
-	url = https://github.com/KDE/plasma-wayland-protocols.git
+	url = https://invent.kde.org/libraries/plasma-wayland-protocols.git
+	branch = v1.16.0
