@@ -42,6 +42,13 @@ pub mod dpms {
     );
 }
 
+pub mod external_brightness {
+    wayland_protocol!(
+        "./plasma-wayland-protocols/src/protocols/kde-external-brightness-v1.xml",
+        []
+    );
+}
+
 pub mod fake_input {
     wayland_protocol!(
         "./plasma-wayland-protocols/src/protocols/fake-input.xml",
@@ -144,6 +151,15 @@ pub mod screencast {
     pub mod v1 {
         wayland_protocol!(
             "./plasma-wayland-protocols/src/protocols/zkde-screencast-unstable-v1.xml",
+            []
+        );
+    }
+}
+
+pub mod screen_edge {
+    pub mod v1 {
+        wayland_protocol!(
+            "./plasma-wayland-protocols/src/protocols/kde-screen-edge-v1.xml",
             []
         );
     }
